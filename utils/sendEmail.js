@@ -1,6 +1,6 @@
 const cron = require("node-cron");
 const Reminder = require("../models/Reminder");
-const User = require("../models/user");
+const User = require("../models/User");
 const Scheme = require("../models/Scheme");
 const nodemailer = require("nodemailer");
 
