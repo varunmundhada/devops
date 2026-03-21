@@ -1,0 +1,244 @@
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background-color: transparent;
+  color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.scheme {
+  color: #FF671F;
+}
+
+.connect {
+  color: black;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.user-section,
+.auth-section {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-input {
+  padding: 0.5rem 1rem 0.5rem 2.5rem;
+  border: 2px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  font-size: 0.9rem;
+  width: 250px;
+  outline: none;
+  transition: border-color 0.3s;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.search-input:focus {
+  border-color: #FF671F;
+}
+
+.search-submit-btn {
+  background: #FF671F;
+  border: 2px solid #FF671F;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.search-submit-btn:hover {
+  background: #e05a1a;
+  border-color: #e05a1a;
+}
+
+.search-submit-btn:active {
+  background: #d04a0a;
+}
+
+.auth-button {
+  background-color: transparent;
+  color: black;
+  border: 2px solid #FF671F;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a.auth-button {
+  display: inline-block;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.auth-button:hover {
+  background-color: #FF671F;
+  color: white;
+}
+
+.profile-dropdown-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.profile-trigger {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: 2px solid #FF671F;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: #191919;
+  transition: all 0.3s;
+}
+
+.profile-trigger:hover {
+  background-color: #FF671F;
+  color: white;
+}
+
+.dropdown-arrow {
+  margin-left: 8px;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 120%;
+  right: 0;
+  min-width: 200px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 24px rgba(25, 25, 43, 0.14), 0 1.5px 6px 0 rgba(255,103,31,0.08);
+  z-index: 1000;
+  margin-top: 8px;
+  padding: 0.6rem 0;
+}
+
+.profile-dropdown-item {
+  padding: 0.85rem 1.5rem;
+  width: 100%;
+  display: block;
+  background: transparent;
+  border: none;
+  text-align: left;
+  font-size: 1.05rem;
+  color: #191919;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.16s;
+  text-decoration: none;
+}
+
+.profile-dropdown-item:hover {
+  background: #f9f5f0;
+  color: #06038D;
+}
+
+.profile-dropdown-item:last-child {
+  color: #FF671F;
+  font-weight: 600;
+  border-top: 1px solid #eee;
+  margin-top: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .header-right {
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .search-container {
+    width: 100%;
+    flex-direction: row;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding-left: 2.5rem;
+    flex: 1;
+  }
+  
+  .search-submit-btn {
+    flex-shrink: 0;
+  }
+  
+  .user-section,
+  .auth-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+  
+  .auth-button {
+    width: auto;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .profile-dropdown {
+    top: 115%;
+    right: 0;
+    min-width: 160px;
+    font-size: 0.97rem;
+  }
+  .profile-trigger {
+    padding: 0.5rem 1rem;
+    font-size: 0.99rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-input {
+    font-size: 0.85rem;
+    padding: 0.45rem 0.9rem 0.45rem 2.2rem;
+  }
+  
+  .search-icon {
+    font-size: 0.9rem;
+    left: 0.65rem;
+  }
+}

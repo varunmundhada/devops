@@ -1,0 +1,88 @@
+{
+  "header": {
+    "signIn": "Sign In",
+    "profileSettings": "Profile Settings",
+    "logout": "Logout",
+    "searchPlaceholder": "Search schemes...",
+    "searchButton": "Search"
+  },
+  "category": {
+    "filters": "Filters",
+    "schemeCategory": "Scheme Category",
+    "central": "Central Schemes",
+    "state": "State Schemes",
+    "private": "Private Schemes",
+    "occupation": "Occupation",
+    "stateLabel": "State",
+    "allStates": "All States",
+    "casteLabel": "Caste",
+    "allCastes": "All Castes",
+    "schemes": "Schemes",
+    "categoryLabel": "Category",
+    "authority": "Authority",
+    "routeUsed": "Route Used",
+    "searchByName": "Search by name",
+    "searchPlaceholderExample": "Ex: Kisan...",
+    "noMatchingSchemes": "No schemes match your filters.",
+    "adjustFilters": "Try adjusting your filters or check if the backend is running.",
+    "loading": "Loading schemes...",
+    "all": "All",
+    "noDescription": "No description available.",
+    "clickToApply": "Click to open application link",
+    "setReminder": "Set reminder for this scheme",
+    "notAvailable": "N/A"
+  }
+  ,
+  "occupations": {
+    "student": "Student",
+    "farmer": "Farmer",
+    "business": "Business",
+    "senior_citizen": "Senior Citizen",
+    "women": "Women",
+    "startup": "Startup",
+    "small_business": "Small Business",
+    "women_entrepreneur": "Women Entrepreneur",
+    "professional": "Professional",
+    "unemployed": "Unemployed"
+  },
+  "states": {
+    "all": "All",
+    "andhra_pradesh": "Andhra Pradesh",
+    "telangana": "Telangana",
+    "karnataka": "Karnataka",
+    "tamil_nadu": "Tamil Nadu",
+    "kerala": "Kerala",
+    "maharashtra": "Maharashtra",
+    "delhi": "Delhi"
+  }
+  ,
+  "login": {
+    "title": "Sign in to your account",
+    "orCreate": "Or",
+    "createAccount": "create a new account",
+    "email": "Email address",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "signIn": "Sign in",
+    "signingIn": "Signing in..."
+  },
+  "register": {
+    "title": "Create a new account",
+    "alreadyHave": "Already have an account?",
+    "signInHere": "Sign in here",
+    "fullName": "Full Name",
+    "email": "Email address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "occupation": "Occupation",
+    "annualIncome": "Annual Income (INR)",
+    "state": "State",
+    "age": "Age",
+    "gender": "Gender",
+    "caste": "Caste Category",
+    "terms": "I agree to the Terms and Conditions",
+    "createAccountBtn": "Create Account",
+    "creating": "Creating Account..."
+  }
+}

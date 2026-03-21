@@ -1,0 +1,68 @@
+/* About Section Styles */
+.about-section {
+  padding: 4rem 5%;
+  background-color: white;
+  color: #333;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  background: #fff6ee;
+  border: 1px solid rgba(255,103,31,0.12);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(6, 3, 141, 0.06);
+}
+
+.about-section h2 {
+  color: #06038D;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+}
+
+.about-section h2::after {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 4px;
+  background-color: #FF671F;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.about-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 2.5rem 1rem;
+  }
+  
+  .about-content {
+    text-align: left;
+  }
+  
+  .about-section h2 {
+    font-size: 1.8rem;
+  }
+  
+  .about-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}

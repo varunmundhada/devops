@@ -1,0 +1,117 @@
+/* FAQ Section Styles */
+.faq-section {
+  padding: 4rem 5%;
+  background-color: #f9f9f9;
+}
+
+.faq-section h2 {
+  text-align: center;
+  color: #06038D;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.faq-section h2::after {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 4px;
+  background-color: #FF671F;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+  width: 100%;
+  padding: 1.2rem 2rem;
+  text-align: left;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.faq-question:hover {
+  background-color: #f5f5f5;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  background-color: #fafafa;
+  color: #555;
+  line-height: 1.6;
+}
+
+.faq-answer.show {
+  max-height: 300px;
+  padding: 1.5rem 2rem;
+  border-top: 1px solid #eee;
+}
+
+.faq-answer p {
+  margin: 0;
+}
+
+.toggle-icon {
+  font-size: 1.2rem;
+  color: #FF671F;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.faq-question.active .toggle-icon {
+  transform: rotate(45deg);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .faq-section {
+    padding: 2.5rem 1rem;
+  }
+  
+  .faq-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  
+  .faq-question {
+    padding: 1rem 1.2rem;
+    font-size: 1rem;
+  }
+  
+  .faq-answer.show {
+    padding: 1rem 1.2rem;
+  }
+}

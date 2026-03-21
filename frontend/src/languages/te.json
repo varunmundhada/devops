@@ -1,0 +1,87 @@
+{
+  "header": {
+    "signIn": "సైన్ ఇన్",
+    "profileSettings": "ప్రొఫైల్ సెట్టింగ్స్",
+    "logout": "లాగ్ అవుట్",
+    "searchPlaceholder": "యోజనలను వెతకండి...",
+    "searchButton": "వెతకండి"
+  },
+  "login": {
+    "title": "మీ ఖాతాలో సైన్ ఇన్ చేయండి",
+    "orCreate": "లేదా",
+    "createAccount": "కొత్త ఖాతాను తయారుచేయి",
+    "email": "ఇమెయిల్ చిరునామా",
+    "password": "పాస్వర్డ్",
+    "rememberMe": "నన్ను గుర్తుంచుకోండి",
+    "forgotPassword": "మీరు పాస్వర్డ్ మర్చిపోతున్నారా?",
+    "signIn": "సైన్ ఇన్",
+    "signingIn": "సైన్ ఇన్ అవుతోంది..."
+  },
+  "category": {
+    "filters": "ఫిల్టర్లు",
+    "schemeCategory": "పథకం వర్గం",
+    "central": "కేంద్రీయ పథకాలు",
+    "state": "రాష్ట్ర పథకాలు",
+    "private": "ప్రైవేట్ పథకాలు",
+    "occupation": "వృత్తి",
+    "stateLabel": "రాష్ట్రం",
+    "allStates": "అన్ని రాష్ట్రాలు",
+    "casteLabel": "జాతి",
+    "allCastes": "అన్ని జాతులు",
+    "schemes": "పథకాలు",
+    "categoryLabel": "వర్గం",
+    "authority": "అధికార",
+    "routeUsed": "వాడిన మార్గం",
+    "searchByName": "పేరు ద్వారా శోధించండి",
+    "searchPlaceholderExample": "ఉదాహరణ: Kisan...",
+    "noMatchingSchemes": "మీ ఫిల్టర్లకు సరిపోయే పథకాలు లేవు.",
+    "adjustFilters": "దయచేసి మీ ఫిల్టర్లు సర్దుబాటు చేయండి లేదా బ్యాక్‌ఎండ్ పనిచేస్తున్నదో లేదో తనిఖీ చేయండి.",
+    "loading": "పథకాలను లోడ్ చేస్తున్నాము...",
+    "all": "అన్ని",
+    "noDescription": "వివరణ అందుబాటులో లేదు.",
+    "clickToApply": "దరఖాస్తు లింక్ తెరవడానికి క్లిక్ చేయండి",
+    "setReminder": "ఈ పథకానికి రిమైండర్ సెట్ చేయండి",
+    "notAvailable": "అందుబాటులో లేదు"
+  },
+  "occupations": {
+    "student": "విద్యార్థి",
+    "farmer": "రైతు",
+    "business": "వ్యవసాయం",
+    "senior_citizen": "సీనియర్ సిటిజెన్",
+    "women": "మహిళలు",
+    "startup": "స్టార్టప్",
+    "small_business": "చిన్న వ్యాపారం",
+    "women_entrepreneur": "మహిళ వ్యాపారి",
+    "professional": "వృత్తికి చెందినవారు",
+    "unemployed": "ారు"
+  },
+  "states": {
+    "all": "అన్నీ",
+    "andhra_pradesh": "ఆంధ్ర ప్రదేశ్",
+    "telangana": "తెలంగాణ",
+    "karnataka": "కర్ణాటక",
+    "tamil_nadu": "తమిళనాడు",
+    "kerala": "కేరళ",
+    "maharashtra": "మహారాష్ట్ర",
+    "delhi": "దిల్లీ"
+  }
+  ,
+  "register": {
+    "title": "కొత్త ఖాతా సృష్టించండి",
+    "alreadyHave": "ఇప్పుడే ఖాతా ఉందా?",
+    "signInHere": "ఇక్కడ సైన్ ఇన్ చేయండి",
+    "fullName": "పూర్తి పేరు",
+    "email": "ఇమెయిల్ చిరునామా",
+    "password": "పాస్వర్డ్",
+    "confirmPassword": "పాస్వర్డ్ను నిర్ధారించండి",
+    "occupation": "వృత్తి",
+    "annualIncome": "వార్షిక ఆదాయం (INR)",
+    "state": "రాష్ట్రం",
+    "age": "వయస్సు",
+    "gender": "లింగం",
+    "caste": "జాతి విభాగం",
+    "terms": "నేను నిబంధనలను మరియు షరతులను అంగీకరిస్తున్నాను",
+    "createAccountBtn": "ఖాతా సృష్టించు",
+    "creating": "ఖాతా సృష్టిస్తోంది..."
+  }
+}
