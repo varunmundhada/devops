@@ -112,7 +112,20 @@ const Login = () => {
     />
     <span style={{ display: 'inline-block', verticalAlign: 'middle' }}>{t('login.rememberMe')}</span>
   </label>
-  <a href="#">{t('login.forgotPassword')}</a>
+  <button
+    type="button"
+    style={{
+      background: 'none',
+      border: 'none',
+      padding: 0,
+      color: '#0a58ca',
+      textDecoration: 'underline',
+      cursor: 'pointer'
+    }}
+    onClick={() => window.alert(t('login.forgotPassword'))}
+  >
+    {t('login.forgotPassword')}
+  </button>
 </div>
 
 

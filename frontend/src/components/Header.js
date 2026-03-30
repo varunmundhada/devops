@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef, useContext } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import '../styles/Header.css';
 import { LanguageContext } from '../context/LanguageContext';
-import api from '../utils/api';
 import LanguageSelector from './LanguageSelector';
 import EligibleSchemesButton from './EligibleSchemesButton';
 
@@ -13,7 +12,7 @@ const Header = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const dropdownRef = useRef();
-  const { t, language } = useContext(LanguageContext);
+  const { t } = useContext(LanguageContext);
 
   // Check for user on mount and when route changes (e.g., after login)
   useEffect(() => {

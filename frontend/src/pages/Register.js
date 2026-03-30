@@ -68,7 +68,7 @@ const Register = () => {
         caste: caste || undefined
       };
 
-      const response = await axios.post(`${API_BASE}/api/users/register`, payload);
+      await axios.post(`${API_BASE}/api/users/register`, payload);
 
       // On success, redirect to login
       navigate('/login');
