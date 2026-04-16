@@ -1,4 +1,4 @@
-#problem statement description
+problem statement description
 Millions of eligible students and citizens miss out on scholarships and government subsidies every year due to scattered information across multiple portals, complex eligibility criteria, and lack of awareness. According to studies, over 60% of students are unaware of available schemes, and thousands of crores in funds remain unutilized annually.
 
 The current ecosystem is fragmented  portals are difficult to navigate, eligibility rules are confusing, and applicants face repeated document submissions. This leads to frustration, application dropouts, and financial stress on families.
@@ -46,16 +46,6 @@ remainders directly to the gmail(if correct) with date and time
 will be authenticated using digilocker
 will be using apis
 
-#Use this .env for further checking
-MONGO_URI=mongodb+srv://scheme_connect:dhanush12032006@schemeconnect.n5aej7q.mongodb.net/?appName=schemeconnect
-PORT=5000
-EMAIL_SERVICE=gmail
-EMAIL_USER=komatireddydhanushreddy@gmail.com
-EMAIL_PASS=qolcbtivicsidzoz
-EMAIL_FROM=komatireddydhanushreddy@gmail.comf
-JWT_SECRET=your_secret_key_here
-JWT_EXPIRES_IN=1d
-GEMINI_API_KEY=AIzaSyDs0Kyt8iX2eVRRNQywl847etuimnN4RB0
 
 
 =>routes for login and register
